@@ -2,7 +2,7 @@
 
 Sometimes your rule will decide to block a request, redirect the request to a different page, or otherwise avoid sending the request to the original web page.
 
-Architecture layer: modsecurity
+##Architecture layer: modsecurity
 
 In modsecurity you can specify a *disruptive action* in the list of actions. In the below example, `deny` is the disruptive action:
 
@@ -30,7 +30,7 @@ The most common way to block a request is to set the `deny` or `block` actions. 
 
 _or_
 
-Architecture layer: node.js proxy
+##Architecture layer: node.js proxy
 
 The node.js proxy gives us a few different ways to finish a response prematurely.
 
