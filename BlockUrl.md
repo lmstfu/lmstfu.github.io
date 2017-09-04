@@ -1,6 +1,6 @@
 # Block access to a url
 
-##Architecture layer: modsecurity
+## Architecture layer: modsecurity
 
 Use when you want to block access to a single url on the site.
 
@@ -17,7 +17,7 @@ You will need to update the ID to a number not already in use, and you may want 
 
 _or_
 
-##Architecture layer: node.js proxy
+## Architecture layer: node.js proxy
 
 URL blocking can also be performed in the node.js proxy, if you need to perform more actions in order to make your decision.
 
