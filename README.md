@@ -11,7 +11,17 @@ A virtual patching layer can sit in front of your web server, acting as a revers
 
 ![Virtual Patching diagram showing a layer in front of your website that can protect your web server and application](images/virtualpatching.png)
 
+## Learn more
 
-[What is lmstfu?](WhatIsLMSTFU)
+* [What is lmstfu?](WhatIsLMSTFU)
+* [Vulnerabilities or Weaknesses](VulnerabilitiesOrWeaknesses)
+* [How to address vulnerabilities](AddressVulnerabilities)
+* Mod Security:
+ * [About Mod Security](ModSecurity)
+ * [Laying out your SecRules](SecRuleLayout)
+ * [Running CRS rules only on certain parameters](CRS-SpecificParams)
+* Virtual Patches:
+ * [Blocking Requests](BlockingRequests)
+ * [Blocking Urls](BlockUrl)
 
 
