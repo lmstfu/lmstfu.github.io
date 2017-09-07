@@ -17,11 +17,11 @@ A virtual patching layer can sit in front of your web server, acting as a revers
 * [Vulnerabilities or Weaknesses](VulnerabilitiesOrWeaknesses)
 * [How to address vulnerabilities](AddressVulnerabilities)
 * Mod Security:
- * [About Mod Security](ModSecurity)
- * [Laying out your SecRules](SecRuleLayout)
- * [Running CRS rules only on certain parameters](CRS-SpecificParams)
+  * [About Mod Security](ModSecurity)
+  * [Laying out your SecRules](SecRuleLayout)
+  * [Running CRS rules only on certain parameters](CRS-SpecificParams)
 * Virtual Patches:
- * [Blocking Requests](BlockingRequests)
- * [Blocking Urls](BlockUrl)
+  * [Blocking Requests](BlockingRequests)
+  * [Blocking Urls](BlockUrl)
 
 
