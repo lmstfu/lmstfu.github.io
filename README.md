@@ -15,8 +15,8 @@ A virtual patching layer can sit in front of your web server, acting as a revers
 
 * Presentation at Appsec Day AU 2017:
   * [Slides (Google Slides)](https://docs.google.com/presentation/d/1O-TqtVjRZHw8dzwZZ5jG7VZkJGv0WZ8dPq6qfMiIq_c/edit?usp=sharing)
-  * [PDF](presentations/2017-09-09-AppsecAU-lmstfu-KirkJackson.pdf)
-  * [Video (youtube)](https://www.youtube.com/watch?v=ErRu8_iZd14)
+  * [Slides (PDF, 2mb)](presentations/2017-09-09-AppsecAU-lmstfu-KirkJackson.pdf)
+  * [Video (YouTube, 57min)](https://www.youtube.com/watch?v=ErRu8_iZd14)
 * [What is lmstfu?](WhatIsLMSTFU)
 * [Vulnerabilities or Weaknesses](VulnerabilitiesOrWeaknesses)
 * [How to address vulnerabilities](AddressVulnerabilities)
