@@ -24,8 +24,18 @@ A virtual patching layer can sit in front of your web server, acting as a revers
   * [About Mod Security](ModSecurity)
   * [Laying out your SecRules](SecRuleLayout)
   * [Running CRS rules only on certain parameters](CRS-SpecificParams)
+* Node.js:
+	* [About Node.js](NodeJS)
+	* [Node.js Proxy](NodeProxy)
+	* [Node.js Proxy Handlers](NodeProxyHandlers)
 * Virtual Patches:
   * [Blocking Requests](BlockingRequests)
   * [Blocking Urls](BlockUrl)
+  * [Validate a Parameter](ValidateParameter)
+  * [Detect XSS](DetectXSS)
+  * [Detect SQL Injection](DetectSQLi)
+  * [Protect against CSRF](CSRF)
+  * [Alter cookie secure / HttpOnly flags](CookieFlags)
+  * [HTML Manipulation](HTMLManipulation)
 
 

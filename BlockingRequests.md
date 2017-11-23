@@ -49,3 +49,13 @@ proxyRequest.abort();
 ```
 
 This will abort the request being forwarded to the origin server, and also write a redirect response back to the client. This allows you to be slightly more friendly by redirecting to a blocking page.
+
+```javascript
+response.writeHead(500, {
+	'Content-Type': 'text/plain'
+});
+
+response.end('Something went wrong. And we are reporting a custom error message.');
+```
+
+This also aborts the request, but writes a text response back to the browser.

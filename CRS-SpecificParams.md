@@ -1,6 +1,6 @@
 # Running CRS rules only on certain parameters
 
-The OWASP ModSecurity Core Rule Set has a lot of protections for common web attacks built in, and is tuned to cause a minimum of false alerts. Use the guidance in the documentation, a high anomaly score threshold, a low paranoia level setting and you’re unlikely to have legitimate traffic blocked when you first install and set up ModSecurity with the CRS.
+The [OWASP ModSecurity Core Rule Set](https://coreruleset.org/) has a lot of protections for common web attacks built in, and is tuned to cause a minimum of false alerts. Use the guidance in the documentation, a high anomaly score threshold, a low paranoia level setting and you’re unlikely to have legitimate traffic blocked when you first install and set up ModSecurity with the CRS.
 
 However, sometimes you only want protection on certain known vulnerable parameters, perhaps only on certain pages. The Core Rule Set isn’t really designed for this use case, and is intended for site-wide use.
 
@@ -116,4 +116,4 @@ Dissecting this new rule, it checks the path of the request, and for all other U
 
 Summarising our new rules, we alter the Core Rule Set’s SQL injection rules to stop them scanning across all parameters, and then add back just the SearchTerm parameter. To stop that parameter from running on all pages, we then remove it again if the current request isn’t for the Product Search page.
 
-Many thanks to Christian Folini for helping me come up with these rules, and to the other folks on the OWASP ModSecurity Core Rule Set mailing list.
+Many thanks to [Christian Folini](https://www.christian-folini.ch/) for helping me come up with these rules, and to the other folks on the [OWASP ModSecurity Core Rule Set mailing list](https://lists.owasp.org/mailman/listinfo/owasp-modsecurity-core-rule-set).

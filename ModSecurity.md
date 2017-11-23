@@ -36,3 +36,15 @@ When virtual patching issues, we want to be certain that we are only fixing know
 This means that when writing a security rule in ModSecurity, we will almost always be scoping it to an individual url and parameter rather than applying it site-wide.
 
 Unfortunately, while the Core Rule Set is an awesome place to start, it doesn't support this granular approach out of the box. We need to follow the process discussed in [Running CRS rules only on certain parameters](CRS-SpecificParams) to narrowly target groups of rules.
+
+### More information
+
+As always, Google is your friend when finding ModSecurity information - but beware with old articles, which may be out of date.
+
+Resources we recommend:
+
+* [ModSecurity website](http://modsecurity.org/)
+* [OWASP ModSecurity Core Rule Set](https://coreruleset.org/) 
+* [ModSecurity Handbook](https://www.feistyduck.com/books/modsecurity-handbook/) by Christian Folini and Ivan Ristić - print / ebook
+* [netnea Apache / ModSecurity Tutorials](https://www.netnea.com/cms/apache-tutorials/)
+* [Trustwave SpiderLabs Blog](https://www.trustwave.com/Resources/SpiderLabs-Blog/?tag=ModSecurity&LangType=1033)
