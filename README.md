@@ -13,6 +13,12 @@ A virtual patching layer can sit in front of your web server, acting as a revers
 
 ## Learn more
 
+* Presentation at linux.conf.au 2017:
+  * [Slides (Google Slides)] (https://docs.google.com/presentation/d/1AqnxhhgRdt31wuODORyOgBVN6FhUNUgKaCPT2os4FFM/edit?usp=sharing)
+  * [Slides (PDF, 2.1mb)](presentations/2018-01-26-LCA-lmstfu-KirkJackson.pdf)
+  * [Video (YouTube, 45min)](https://www.youtube.com/watch?v=Y16EWWcVQr8)
+* Presentation at BSidesWLG 2017:
+  * [Video (YouTube, 47min)](https://www.youtube.com/watch?v=6M5bULPCaA0)
 * Presentation at Appsec Day AU 2017:
   * [Slides (Google Slides)](https://docs.google.com/presentation/d/1O-TqtVjRZHw8dzwZZ5jG7VZkJGv0WZ8dPq6qfMiIq_c/edit?usp=sharing)
   * [Slides (PDF, 2mb)](presentations/2017-09-09-AppsecAU-lmstfu-KirkJackson.pdf)
